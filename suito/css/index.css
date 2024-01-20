@@ -42,6 +42,7 @@ main {
 }
 
 article {
+    text-align: center;
     background-color: grey;
     margin-bottom: 40px;
     max-width: 400px;
@@ -49,8 +50,7 @@ article {
 }
 
 article img{
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0 auto;
     max-height: 200px;
     max-width: 600px;
 }
@@ -93,6 +93,7 @@ blockquote cite {
     font-size: .8em;
     text-align: right;
 }
+
 
 @media screen and (max-width: 480px) {
     body {
